@@ -1,0 +1,15 @@
+generated: '2026-07-18'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.chemix.ai
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 25 17:48:17 2026 GMT
+  hsts: false
+domains:
+- domain: chemix.ai
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false

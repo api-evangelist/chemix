@@ -1,7 +1,26 @@
 aid: chemix
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chemix.png
 name: Chemix
-description: Chemix is a company surfaced as a portfolio company of mayfield and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Chemix is an artificial-intelligence company building an end-to-end, AI-enabled power system
+  for batteries, organized around the themes of power safety, observability, and predictability.
+  Based in Sunnyvale, California, the company applies generative and machine-learning techniques
+  to make battery behavior more transparent and predictable across the battery lifecycle. Chemix
+  is a Mayfield-backed portfolio company and was added to the API Evangelist network as a stub for
+  enrichment. As of this profile the company is pre-launch ("more product details coming soon")
+  and publishes no public developer portal, API documentation, SDKs, or machine-readable API
+  specifications; this record captures verifiable company identity and domain-security posture only.
 url: https://raw.githubusercontent.com/api-evangelist/chemix/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +28,38 @@ x-backed-by:
 - mayfield
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-location: Sunnyvale, CA, USA
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Artificial Intelligence
+- Battery
+- Energy
+- Power Systems
+- Observability
+- Electric Vehicles
+- Deep Tech
 apis: []
+common:
+- type: DomainSecurity
+  url: security/chemix-domain-security.yml
+- type: Website
+  url: https://www.chemix.ai/
+- type: Support
+  url: https://www.chemix.ai/contact/
+- type: Login
+  url: https://us.ruler.www.chemix.ai/login
+- type: LinkedIn
+  url: https://www.linkedin.com/company/chemix-inc/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
