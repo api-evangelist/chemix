@@ -42,7 +42,7 @@ x-tier-reason: portfolio-lead
 x-location: Sunnyvale, CA, USA
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-10-06'
 tags:
 - Company
 - Artificial Intelligence
@@ -54,6 +54,8 @@ tags:
 - Deep Tech
 apis: []
 common:
+- url: https://www.chemix.ai/blog/
+  type: Blog
 - type: DomainSecurity
   url: security/chemix-domain-security.yml
 - type: Website
